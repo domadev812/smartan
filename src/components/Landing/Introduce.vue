@@ -28,7 +28,7 @@ export default {
   }
   .comment {
     font-size: 20px;
-    width: 50%;
+    width: 70%;
     margin: auto;
     margin-top: 20px;
     color: #84899d;
@@ -42,7 +42,7 @@ export default {
     padding: 12px 16px;
     font-size: 16px;
     cursor: pointer;
-    width: 20%;
+    width: 30%;
     height: 75px;
     color: #000;
     outline: none;
