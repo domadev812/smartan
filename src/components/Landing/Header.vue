@@ -1,6 +1,6 @@
 <template>
-  <div class = "header"> 
-    <img class = "img-logo">
+  <div class = "header container"> 
+    <img class = "img-logo" src = "../../assets/images/logo.png">
     <div class = "menu">
       <ul>
         <li>Products</li>
@@ -22,5 +22,24 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+    padding-top: 10px;   
+    ul {
+      list-style: none;    
+      li {
+        float: left;
+        margin-right: 60px;
+        color: #1e2129;
+        font-size: 20px;
+        &:hover{
+          color: #006cff;
+          cursor: pointer;
+        }
+      }
+    }
+  }
 </style>
